@@ -2,4 +2,7 @@
     <string name="app_name">EmotionKeyBoard</string>
 
     <string name="btn_send">发送</string>
+    <string name="btn_txt_send_msg">发送</string>
+    <string name="btn_edit_text">btn_main_editText</string>
+    <string name="btn_list_view">btn_main_listView</string>
 </resources>

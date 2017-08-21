@@ -3,7 +3,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <LinearLayout
+    <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
         android:background="@color/bg_horizontal_line_color" />
@@ -29,7 +29,7 @@
             android:visibility="gone" />
 
         <ImageView
-            android:id="@+id/bar_image_add_btn"
+            android:id="@+id/iv_add_btn"
             android:layout_width="28dp"
             android:layout_height="28dp"
             android:clickable="true"
@@ -38,7 +38,7 @@
             android:visibility="gone" />
 
         <LinearLayout
-            android:id="@+id/rl_editbar_bg"
+            android:id="@+id/ll_edit_bar_bg"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
@@ -49,7 +49,7 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/bar_edit_text"
+                android:id="@+id/et_of_tab_bar"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -67,21 +67,19 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/bar_btn_send"
+            android:id="@+id/btn_send"
             android:layout_width="56dp"
             android:layout_height="32dp"
             android:background="@drawable/shape_bg_button_reply"
-            android:text="@string/btn_send"
+            android:text="@string/btn_txt_send_msg"
             android:textColor="@color/white"
             android:visibility="gone" />
     </LinearLayout>
 
-    <LinearLayout
+    <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:background="@color/bg_horizontal_line_color"/>
-
-
+        android:background="@color/bg_horizontal_line_color" />
 
 
 </LinearLayout>

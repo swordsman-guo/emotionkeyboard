@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.zejian.emotionkeyboard">
+    package="com.firo.emoji">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+        <activity android:name="com.firo.emoji.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,8 +16,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.EditTextActivity"/>
-        <activity android:name=".activity.ListViewBarEditActivity"/>
+        <activity android:name="com.firo.emoji.activity.EditTextActivity"/>
+        <activity android:name="com.firo.emoji.activity.ListViewBarEditActivity"/>
     </application>
 
 </manifest>
