@@ -1,5 +1,8 @@
+###源项目地址
 
 文章博客地址： http://blog.csdn.net/javazejian/article/details/52126391
+
+###Tips
 
 - Android中的键盘是个大坑，Android本就没有提供直接提供软键盘API，甚至键盘高度的获取都需要间接手段。
 - 表情面板实现起来确实不容易，不容易是指恶心，思路大家都有，但你不一定敲得出来。
